@@ -31,7 +31,7 @@ export const config: Options.Testrunner = {
     // will be called from there.
     //
     specs: [
-        './features/homepage/register/register_failed.feature'
+        './features/homepage/**/*.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -154,7 +154,7 @@ export const config: Options.Testrunner = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./features/steps/register/register_failed.ts'],
+        require: ['./features/steps/**/*.ts'],
         // <boolean> show full backtrace for errors
         backtrace: false,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
