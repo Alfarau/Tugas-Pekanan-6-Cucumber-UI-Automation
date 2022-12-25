@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"customerForm\"]/table/tbody/tr[13]/td[2]/input"
+}

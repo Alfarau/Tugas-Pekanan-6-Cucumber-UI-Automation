@@ -2,6 +2,9 @@
 Alfarau Al Ababil
 alfarau.id@gmail.com
 
+## Tools
+- Webdriver.io
+
 ## Extensions : Marketplace
 - Cucumber
 
@@ -13,9 +16,6 @@ alfarau.id@gmail.com
   - ? Which reporter do you want to use? allure
   - ? Do you want to add a plugin to your test setup? wait-for
   - ? Do you want to add a service to your test setup? chromedrive
-  
-- npm install
-- npm install chai
 
 ## How to Run 
 - npm run wdio
