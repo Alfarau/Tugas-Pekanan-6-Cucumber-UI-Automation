@@ -1,4 +1,4 @@
-Feature: Register
+Feature: Register Failed
 
   @negative @regression
   Scenario Outline: Register Failed - Blank Firstname and Lastname
